@@ -28,13 +28,21 @@ class General extends CI_Controller {
 	}
 
 	public function gstclient()
-	{ 
-		$this->load->library('breadcrumbs');
-		$this->breadcrumbs->push('Page', '/section/page', true);
-		$this->breadcrumbs->show();
+	{
+
 		$this->load->view('index');
-		$this->load->view('staff/gst_client/gstmenu');
+		$this->load->view('staff/gst_client/gstclient');
 	
 	}
+	public function gstmonthlyfill(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/gst_monthly_fill');
+	}
+	public function gmfresult(){ 
+		// company's get query from model db and stored to $company that passes to the below view as parameter
+	    $this->load->view('index');
+		$this->load->view('staff/gst_client/resultant_company');
+	}
+
 
 }
