@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="XAMPP">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="XAMPP" stopOnFirstError="true" overwriteAll="false" deleteMissingItems="true" createEmptyFolders="true" autoUploadExternalChanges="true">
     <serverData>
       <paths name="XAMPP">
         <serverdata>
@@ -32,5 +32,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

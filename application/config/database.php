@@ -73,12 +73,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
+echo base_url();
+
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
+//	'username' => 'ssquareq_dotlocus',
 	'password' => '',
+//	'password' => 'aA9895204814',
 	'database' => 'finpro',
+//	'database' => 'ssquareq_finpro_erp',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
