@@ -20,29 +20,46 @@ class General extends CI_Controller {
 	 */
 	public function index()
 	{
-		
 		$this->load->view('index');
-		$this->load->view('staff/staff_index');
-		
-		
+		$this->load->view('staff/staff_index');	
 	}
-
 	public function gstclient()
 	{
-
 		$this->load->view('index');
 		$this->load->view('staff/gst_client/gstclient');
-	
 	}
 	public function gstmonthlyfill(){
 		$this->load->view('index');
-		$this->load->view('staff/gst_client/gst_monthly_fill');
+		$this->load->view('staff/gst_client/GstMonthlyFill');
 	}
 	public function gmfresult(){ 
 		// company's get query from model db and stored to $company that passes to the below view as parameter
 	    $this->load->view('index');
-		$this->load->view('staff/gst_client/resultant_company');
+		$this->load->view('staff/gst_client/ResultantCompany');
 	}
+	public function balancesheet(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/BalanceSheet');
+		}
+		
+	public function cashflow(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/cashflow');
+
+	}
+	public function documents(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/documents');
+	}
+	public function purchase(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/documents/purchase');
+	}
+
+		
+		
+		
+	
 
 
 }

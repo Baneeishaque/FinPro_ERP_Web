@@ -285,7 +285,7 @@ margin-top: 1cm;
   width: 3cm;
   height: 1cm;
   text-align: center;
-  padding-top: 8px;
+  padding-top:3px;
 }
 #cgallery{
 margin-top: 1cm;
@@ -308,4 +308,97 @@ margin-top: 1cm;
   flex-direction: row;
   justify-content: space-between;
   padding: .5cm;
+}
+/* BALANCE SHEET */
+#DandM{
+  margin-right: 0px;
+
+padding-left: 4.5cm;
+}
+
+
+#TB{
+ margin-top: 1cm;
+ margin-left: 2px;
+}
+.boxdiv{ 
+  min-height: 15cm; 
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+}
+#balancesheet{
+ 
+  width: 100%;
+  font-weight: bold;
+  border-collapse: collapse;
+  position: relative;
+  min-height: 24cm;
+  overflow: hidden;
+
+
+  
+}
+
+#balancesheet th{
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: thin solid;
+  overflow: hidden;
+  
+}
+#balancesheet td{
+  text-align: start;
+  border-bottom: thin solid;
+  overflow: hidden;
+  border-collapse: collapse;
+  padding-left: 15px;
+  display: table-cell;
+
+ 
+}
+#balancesheet td:first-child,#balancesheet th:first-child{
+  border-right: thin solid;
+  padding-right: 6cm;
+}
+/* staff /gstclient/company/ DOCUMENT */
+#document-row{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4cm;
+  padding-right: 4cm;
+  padding-top: 2cm;
+}
+
+.purchase-document{
+  background-color: #fff; 
+  margin: 15px;
+  margin-top:1.1cm;
+  min-height: 10cm;
+  box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+
+}
+.doc-box{
+  width: 4cm;
+  height: 5cm;
+  background-color: rgb(88, 88, 88);
+
+ box-sizing: border-box;
+ font-size: 9px;
+ border-radius: 15px;
+ -webkit-box-shadow: 1px 10px 30px -10px rgba(0, 0, 0, 0.1);
+ box-shadow: 1px 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+.icon-box{
+  padding-top: 2.7cm;
+  
+}
+.fa-trash-o{
+ 
 }

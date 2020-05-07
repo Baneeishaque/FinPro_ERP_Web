@@ -20,7 +20,7 @@
                                 <?php foreach($years as $year) : ?>
                                     <option value="<?php echo $year; ?>'-'<?php echo $year+1; ?>"><?php echo $year; ?>-<?php echo $year+1; ?></option>
                                 <?php endforeach; ?>
-                            </select><i class="fa fa-calendar" style="" aria-hidden="true"></i>
+                            </select><i class="fa fa-calendar"  aria-hidden="true"></i>
                         </div>
                         
                     
