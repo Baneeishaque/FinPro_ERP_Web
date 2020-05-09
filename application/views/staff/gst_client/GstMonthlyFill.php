@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="form-group for-year">
                    
-                        <label class="gmflabels" for="financialyear">FINANCIAL YEAR </label>
+                        <label class="formlabels" for="financialyear">FINANCIAL YEAR </label>
                     
                         <?php $years = range(2000, strftime("%Y", time())); ?>
                         
@@ -28,7 +28,7 @@
             </div>
             <div class="row">
                 <div class="form-group for-company">
-                    <label class="gmflabels" for="company">COMPANY</label>
+                    <label class="formlabels" for="company">COMPANY</label>
                     <select name="company" id="company">
                             <option value="">dotLocus Pvt. Ltd.</option>
                             <option value="">example company.etc</option>

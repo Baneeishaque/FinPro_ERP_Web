@@ -55,6 +55,27 @@ class General extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('staff/gst_client/company/documents/purchase');
 	}
+	public function gstr_1() {
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/gstr-1');
+	}
+	public function profitloss(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/profitloss');
+	}
+	public function accountinfo(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/accountinfo');
+	}
+	public function ledger(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/accoundinfo/ledger');
+	}
+// LEDGER CREATE
+	public function create(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/accoundinfo/create');
+	}
 
 		
 		

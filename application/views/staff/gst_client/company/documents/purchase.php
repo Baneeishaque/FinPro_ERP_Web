@@ -21,13 +21,47 @@
         <div class="row" id="document-row">
             
 
-            <a href="<?php echo  base_url('general/');   ?>"><div class="doc-box "><span>PURCHAS</span><div class="icon-box"><i class="fa fa-eye fa-3x"style="color:white;" aria-hidden="true"></i><i class="fa fa-trash-o fa-3x" style="color:white;" aria-hidden="true" ></i></div></div></a>
-            <a href="<?php echo  base_url('general/');   ?>"><div class="doc-box ">BANK</div></a>
-            <a href="<?php echo  base_url('general/');    ?>"><div class="doc-box">SALES</div></a>
-            <a href="<?php echo  base_url('general/');    ?>"><div class="doc-box ">GST REPORT</div></a>
-            <a href="<?php echo  base_url('general/');    ?>"><div class="doc-box">OTHERS</div></a>
-      
-            
+            <div class="doc-box "><p class="doc-name">PURCHASE DOC1 </p>
+                <div class="row icon-box">
+                    
+                    <a href="#"><i class="fa fa-eye fa-3x"style="color:white;" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-trash-o fa-3x" style="color:white;" aria-hidden="true" ></i></a>
+                </div>
+            </div>
+
+            <div class="doc-box "><p class="doc-name">PURCHASE DOC2</p>
+                <div class="row icon-box">
+                    
+                    <a href="#"><i class="fa fa-eye fa-3x"style="color:white;" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-trash-o fa-3x" style="color:white;" aria-hidden="true" ></i></a>
+                </div>
+            </div>
+
+            <div class="doc-box "><p class="doc-name">PURCHASE DOC3</p>
+                <div class="row icon-box">
+                    
+                    <a href="#"><i class="fa fa-eye fa-3x"style="color:white;" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-trash-o fa-3x" style="color:white;" aria-hidden="true" ></i></a>
+                </div>
+            </div>
+
+            <div class="doc-box "><p class="doc-name">PURCHASE DOC4</p>
+                <div class="row icon-box">
+                    
+                    <a href="#"><i class="fa fa-eye fa-3x"style="color:white;" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-trash-o fa-3x" style="color:white;" aria-hidden="true" ></i></a>
+                </div>
+            </div>
+
+            <div class="doc-box "><p class="doc-name">PURCHASE DOC5</p>
+                <div class="row icon-box">
+                    
+                    <a href="#"><i class="fa fa-eye fa-3x"style="color:white;" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-trash-o fa-3x" style="color:white;" aria-hidden="true" ></i></a>
+                </div>
+            </div>
+           
+           
  
         </div>
         

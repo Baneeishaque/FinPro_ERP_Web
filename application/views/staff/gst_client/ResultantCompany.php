@@ -17,14 +17,14 @@
             <a href="<?php echo  base_url('general/balancesheet');   ?>"><div class="child-box ">BALENCE SHEET</div></a>
             <a href="<?php echo  base_url('general/cashflow'); ?>"><div class="child-box ">CASH FLOW </div></a>
             <a href="<?php echo  base_url('general/documents');     ?>"><div class="child-box">DOCUMENTS</div></a>
-            <a href="<?php echo  base_url('general/gstmonthlyfill');   ?>"><div class="child-box ">GSTR-1</div></a>
+            <a href="<?php echo  base_url('general/gstr_1');   ?>"><div class="child-box ">GSTR-1</div></a>
             <a href="<?php echo  base_url('general/'); ?>"><div class="child-box ">VOUCHER</div></a>
         </div>
 
 
         <div class="row gmf-row">
-            <a href="<?php echo  base_url('general/');     ?>"><div class="child-box">PROFIT & LOSS BANK A/C</div></a>
-            <a href="<?php echo  base_url('general/gstmonthlyfill');   ?>"><div class="child-box ">ACCOUNT INFO</div></a>
+            <a href="<?php echo  base_url('general/profitloss');     ?>"><div class="child-box">PROFIT & LOSS BANK A/C</div></a>
+            <a href="<?php echo  base_url('general/accountinfo');   ?>"><div class="child-box ">ACCOUNT INFO</div></a>
             <a href="<?php echo  base_url('general/'); ?>"><div class="child-box ">PURCHASE REGISTER</div></a>
             <a href="<?php echo  base_url('general/');     ?>"><div class="child-box">SALE REGISTER</div></a>
             <a href="<?php echo  base_url('general/gstmonthlyfill');   ?>"><div class="child-box ">BANK</div></a>
