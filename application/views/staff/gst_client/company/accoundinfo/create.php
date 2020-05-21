@@ -32,8 +32,8 @@
                 </div>
                 <!--------------------------------- CHECK BOXES START ------------------>
                 <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="form-group col-md-4"> 
+                    <div class="col-md-4 col-sm-4"></div>
+                    <div class="form-group col-md-4 col-sm-4"> 
                         <!-- CAPITAL ACCOUNT-->
                         <input type="checkbox" class="check-boxes" name="capitalac"><label for="capitalaccount" class="ledg-label">Capital Account</label>
                     </div>
@@ -44,8 +44,8 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="form-group col-md-4"> 
+                    <div class="col-md-4 col-sm-4"></div>
+                    <div class="form-group col-md-4 col-sm-4"> 
                         <!-- ACCOUNT RECEIVABLE -->
                         <input type="checkbox" class="check-boxes" name="acreceivable"><label for="acreceivable" class="ledg-label">Account Receivable</label>
                     </div>
@@ -56,8 +56,8 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="form-group col-md-4"> 
+                    <div class="col-md-4 col-sm-4"></div>
+                    <div class="form-group col-md-4 col-sm-4"> 
                         <!-- ACCOUNT RECEIVABLE -->
                         <input type="checkbox" class="check-boxes" name="otherassets"><label for="otherassets" class="ledg-label">Other Assets</label>
                     </div>
@@ -84,13 +84,13 @@
                             
                             <div class="choosing"><input type="checkbox" name="option1" class=""><label class="ledg-label" for="option1">Option 1</label></div>
                             
-                            <div class="choosing"><input type="checkbox" name="option21" ><label class="ledg-label" for="option21">Option 2</label></div>
+                            <div class="choosing"><input type="checkbox" name="option2" ><label class="ledg-label" for="option21">Option 2</label></div>
 
                     </div>  
                 </div>
                  <!------------------- OPTIONS(CHECKBOX) END---------------------------->
 
-                <div class="row">
+                <div class="row ledger-submit">
                     <button type="submit" class="btn button-row" id="buttons">SUBMIT<span style="font-size: 20px">&#8617;</span></button>
                 </div>
                 

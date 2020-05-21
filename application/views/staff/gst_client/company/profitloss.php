@@ -21,96 +21,115 @@
     </div>
 </div>
 
-<!-- balance sheet TABLES -->
+
 
 <div class="row  col-md-12 justify-content-center"id="TB">
-        <!-- asset table START -->
+        <!-- TAB1 -->
         <div class="col-md-6 col-sm-6 justify-content-center">
             <div class="boxdiv">
-                <table class="table" id="balancesheet">
+                <table  id="tab1">
                     
                     <thead>
                     
                         <tr>
                             <th>PARTICULERS</th>
+                            <th></th>
                             <th>AMOUNT</th>
+                            
                         </tr>            
                     </thead>
                     <tbody>
                         <tr>
                             <td>Opening Stock</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td style="color:#32005c;">Purchase Amount</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td>Gst Purchase 18%</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td>Gst Purchase 12%</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td>Gst Purchase 5%</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td>Direct Expense</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
-                        </tr>
-                        <tr>
-                            <td>Gross Profit</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td>Gross Profit</td>
                             <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Gross Profit</td>
+                            <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td>Indirect Expenses</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td>Net Profit</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
+                            <th></th>
                         </tr>
                        
                     </tbody>                
                 </table>
             </div>
         </div>
-      <!-- asset table END -->
-        <!-- LIABILITIES table START -->
+
+        <!-- TAB2 -->
         <div class="col-md-6 col-sm-6 justify-content-center">
             <div class="boxdiv">
-            <table class="table table-bordered " id="balancesheet">
+                <table id="tab2">
+                    
                     <thead>
-                        
+                    
                         <tr>
-                            <th>PERTICULERS</th>
+                            <th>PARTICULERS</th>
+                            <th></th>
                             <th>AMOUNT</th>
                         </tr>            
                     </thead>
@@ -118,55 +137,86 @@
                         <tr>
                             <td>SALES</td>
                             <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>(-) Sales Return</td>
                             <td></td>
-                        </tr>
-                        <tr>
-                            <td ></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td>Closing Stock</td>
                             <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
+                            <td></td>
                         </tr>
                         <tr>
+                            <td></td>
+                            <td></td> 
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td>Gross Profit</td>
                             <td></td>
+                            <td></td>
                         </tr>
                         <tr>
+                            <td></td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td>Indirect Income</td>
                             <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
+                            <td></td>
                         </tr>
+                       
                        
                     </tbody>                
                 </table>
             </div>
-        </div>
-        <!-- LIABILITIES table END -->
+        </div>  
+      
+       
+        
+     
     </div>

@@ -45,7 +45,7 @@ body {
     font-size: 18px;
 }
 .container {
-    
+  
     width: 100%;
     height: auto;
     display: flex;
@@ -62,8 +62,8 @@ body {
 }
 .box{
     
-    width: 6cm;
-    height: 6cm;
+    width: 5.5cm;
+    height: 5.5cm;
     background-color: rgb(88, 88, 88);
    padding:2cm;
    box-sizing: border-box;
@@ -82,18 +82,20 @@ body {
     }
     
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .box, .child-box{
-        width:100%;
+        width:50%;
         margin: 1cm;
         
     }
    
 }
 .child-box{
-    width: 3.5cm;
-    height: 3.5cm;
-    background-color: rgb(88, 88, 88);
+  color: white;
+  font-weight: normal;
+  width: 3.5cm;
+  height: 3.5cm;
+  background-color: rgb(88, 88, 88);
    padding:1cm;
    box-sizing: border-box;
    font-size: 9px;
@@ -194,16 +196,32 @@ ul{
     content: normal;
   }
   /* responsiveness breadcrumb */
-@media screen and (max-width:1200px){
+@media screen and (max-width:1000px){
   #breadcrumbs{
-    width: 85%;
+    width: 85%; 
+  }
+  #breadcrumbs a{
+    font-size: 13px;
+  }
+  #breadcrumbs{
+    margin-left: 45px;
   }
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:760px){
+  #breadcrumbs a{
+    font-size: 9px;
+  }
   #breadcrumbs{
-    width:75%;
-    margin-left: 50px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width:550px){
+  #breadcrumbs a{
+    font-size: 5px;
+  }
+  #breadcrumbs{
+    margin-left: 20px;
   }
 }
 /* BREADCRUMB END */
@@ -323,52 +341,136 @@ margin-top: 1cm;
   }
 }
 
-
+/* table ---------------------------------------------------*/
 #TB{
  margin-top: 1cm;
  margin-left: 2px;
 }
 .boxdiv{ 
-  min-height: 15cm; 
+  height: auto; 
   background-color: white;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+  
 }
-#balancesheet{
- 
+table{
   width: 100%;
   font-weight: bold;
   border-collapse: collapse;
   position: relative;
-  min-height: 24cm;
-  overflow: hidden;
-
-
-  
+  overflow: scroll;
+    
 }
-
-#balancesheet th{
-  font-weight: bolder;
-  text-align: center;
-  text-decoration: none;
-  border-bottom: thin solid;
-  overflow: hidden;
-  
-}
-#balancesheet td{
-  text-align: start;
-  border-bottom: thin solid;
-  overflow: hidden;
-  border-collapse: collapse;
-  padding-left: 15px;
-  display: table-cell;
-
+ th, td{
  
+  margin: auto;
+  padding: 10px;
+  table-layout: fixed;
+ 
+  height: auto;
 }
-#balancesheet td:first-child,#balancesheet th:first-child{
+td:empty{
+  padding: 20px;
+}
+ 
+
+th{
+  border-bottom: solid thin;
+  font-weight: bolder; 
+}
+ td{
+  border-bottom: thin solid;
+  border-collapse: collapse; 
+}
+/* BALANCE SHEE TABLES ASSETS&LIABILITIES */
+#balancesheet td:first-child ,#balancesheet th:first-child,#liabilities td:first-child ,#liabilities th:first-child{
   border-right: thin solid;
-  padding-right: 6cm;
+  padding-right: 5cm;
+}
+
+/* CASH FLOW TABLES CASH IN FLOW & CASH OUT FLOW */
+#cashinflow td:first-child,#cashinflow th:first-child,#cashinflow th:nth-child(2),#cashinflow td:nth-child(2),#cashoutflow td:first-child,#cashoutflow th:first-child,#cashoutflow th:nth-child(2),#cashoutflow td:nth-child(2){
+  border-right:thin solid;
+  padding-right: 3cm;
+}
+
+/*PROFIT & LOSS A/C  TABLE1 TABLE2 */
+#tab1 td:first-child,#tab1 th:first-child,#tab1 th:nth-child(2),#tab1 td:nth-child(2),#tab2 td:first-child,#tab2 th:first-child,#tab2 th:nth-child(2),#tab2 td:nth-child(2){
+  border-right:thin solid;
+  padding-right: 3cm;
+}
+
+/* PURCHASE REGISTER */
+#purchaseregister{
+ 
+  box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+  background-color: #fff; 
+}
+
+#purchaseregister td, #purchaseregister th{
+  border-right: thin solid rgb(163, 158, 158);
+  text-align: center;
+
+  border-bottom: thin solid rgb(131, 121, 121);  
+
+}
+#purchaseregister th:last-child,#purchaseregister td:last-child{
+  border-right: none;
+}
+
+/* SALES REGISTER */
+#salesregister{
+  box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+  background-color: #fff; 
+}
+#salesregister td, #salesregister th{
+  border-right: thin solid rgb(163, 158, 158);
+  text-align: center;
+
+  border-bottom: thin solid rgb(131, 121, 121);  
+
+}
+#salesregister th:last-child,#salesregister td:last-child{
+  border-right: none;
+}
+
+/* daybook */
+#daybook{
+  margin-top: .5cm;
+  
+  box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+  background-color: #fff; 
+
+}
+#daybook td, #daybook th{
+  border-right: thin solid rgb(163, 158, 158);
+  text-align: center;
+
+  border-bottom: thin solid rgb(131, 121, 121);  
+
+}
+#daybook th:last-child,#daybook td:last-child{
+  border-right: none;
+}
+
+/* payment */
+#voucher-table{
+  margin-top: .5cm;
+  margin-bottom: 1cm;
+  box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+  background-color: #fff; 
+
+}
+#voucher-table td, #voucher-table th{
+  border-right: thin solid rgb(163, 158, 158);
+  text-align: center;
+
+  border-bottom: thin solid rgb(131, 121, 121);  
+
+}
+#voucher-table th:last-child,#voucher-table td:last-child{
+  border-right: none;
 }
 /* staff /gstclient/company/ DOCUMENT */
 #document-row{
@@ -382,15 +484,16 @@ margin-top: 1cm;
   padding-right: 4cm;
   padding-top: 2cm;
 }
-
-.purchase-document{
+ .whitebox{
   background-color: #fff; 
-  margin: 15px;
+  
   margin-top:1.1cm;
-  min-height: 10cm;
+  margin-bottom: 1cm;
+  min-height:12cm;
+  height:auto;
   box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
 
-}
+} 
 .doc-box{
  
   width: 4cm;
@@ -502,17 +605,17 @@ width: 4.5cm;
 }
 /* create form */
 .ledger-form{
+  
   margin:0px auto;
   width: 600px;
+  height: 12cm;
 }
 .ledger-create{
- background-color: #fff; 
- margin-top:.5cm;
- 
- height:auto;
- box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+background-color: #fff;  
+height:auto;
+box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
 padding-left: 15px;
-padding-top: 2cm;
+padding-top: 1cm;
 }
 .create-form{
   width: 15cm;
@@ -535,6 +638,7 @@ padding-top: 2cm;
   .ledger-form{
     margin:0px auto;
     width:auto;
+    height: auto;
   }
 }
 #category{
@@ -586,9 +690,53 @@ input[type='checkbox']:checked:after {
 	content: '\2714';
 	color: #fff;
 }
+input[type="radio"]{
+  width: 15px;
+  height: 15px;
+}
 .choosing{
   display: inline-block;
   padding-right:1.5cm;
 }
+.purchase-register{
+background-color: #fff; 
+height:100%;
+box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+padding-left:0;
+padding-right: 0;
+margin-top: .5cm;
 
 
+}
+/* voucher */
+.voucher-row{
+  margin-top: .5cm;
+width: 85%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: .5cm;
+margin-left: 2cm;
+
+}
+.payment-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+/* sale create form */
+.sale-create{
+  background-color: #fff;  
+  height:auto;
+  box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+  padding-left: 15px;
+  padding-top: 1cm;
+  width: 90%;
+
+}
+.sale-form{
+margin:0px auto;
+width: 100%;
+min-height: 16cm;
+}

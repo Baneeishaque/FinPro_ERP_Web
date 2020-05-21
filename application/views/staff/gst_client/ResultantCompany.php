@@ -1,8 +1,10 @@
+<!-- BREAD CRUMB OF COMPANY-->
 <ul id="breadcrumbs">
     <li><a href="<?php echo base_url('general/gstclient');?>">GST CLIENTS</a></li>
     <li ><a href="<?php echo base_url('general/gstmonthlyfill'); ?>">GST MONTHLY FILLING</a></li> 
     <li><a>company-name</a></li> 
 </ul>
+
 <div class="container">
     <div class="row ml-auto" id="fin-year" >
         <div class="ltext"><p>FINANCIAL YEAR</p></div><div class="rdigit"><p>2018-19</p></div>
@@ -18,22 +20,22 @@
             <a href="<?php echo  base_url('general/cashflow'); ?>"><div class="child-box ">CASH FLOW </div></a>
             <a href="<?php echo  base_url('general/documents');     ?>"><div class="child-box">DOCUMENTS</div></a>
             <a href="<?php echo  base_url('general/gstr_1');   ?>"><div class="child-box ">GSTR-1</div></a>
-            <a href="<?php echo  base_url('general/'); ?>"><div class="child-box ">VOUCHER</div></a>
+            <a href="<?php echo  base_url('general/voucher'); ?>"><div class="child-box ">VOUCHER</div></a>
         </div>
 
 
         <div class="row gmf-row">
             <a href="<?php echo  base_url('general/profitloss');     ?>"><div class="child-box">PROFIT & LOSS BANK A/C</div></a>
             <a href="<?php echo  base_url('general/accountinfo');   ?>"><div class="child-box ">ACCOUNT INFO</div></a>
-            <a href="<?php echo  base_url('general/'); ?>"><div class="child-box ">PURCHASE REGISTER</div></a>
-            <a href="<?php echo  base_url('general/');     ?>"><div class="child-box">SALE REGISTER</div></a>
+            <a href="<?php echo  base_url('general/purchaseregister'); ?>"><div class="child-box ">PURCHASE REGISTER</div></a>
+            <a href="<?php echo  base_url('general/salesregister');     ?>"><div class="child-box">SALE REGISTER</div></a>
             <a href="<?php echo  base_url('general/gstmonthlyfill');   ?>"><div class="child-box ">BANK</div></a>
         </div>
 
 
         <div class="row gmf-last">
-            <a href="<?php echo  base_url('general/'); ?>"><div class="child-box ">DAY BOOK</div></a>
-            <a href="<?php echo  base_url('general/');     ?>"><div class="child-box">RGSTR-3B</div></a>
+            <a href="<?php echo  base_url('general/daybook'); ?>"><div class="child-box ">DAY BOOK</div></a>
+            <a href="<?php echo  base_url('general/gstr3b');     ?>"><div class="child-box">RGSTR-3B</div></a>
             <a href="<?php echo  base_url('general/');     ?>"><div class="child-box">PROFILE</div></a>
             
         </div>

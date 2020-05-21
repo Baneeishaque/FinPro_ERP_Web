@@ -26,13 +26,13 @@
         <!-- asset table START -->
         <div class="col-md-6 col-sm-6 justify-content-center">
             <div class="boxdiv">
-                <table class="table" id="balancesheet">
+                <table id="balancesheet">
                     
                     <thead>
                     
                         <tr>
-                            <th>ASSET</th>
-                            <th>AMOUNT</th>
+                            <th style="text-align: center">ASSETS</th>
+                            <th style="text-align: center">AMOUNT</th>
                         </tr>            
                     </thead>
                     <tbody>
@@ -99,14 +99,14 @@
         </div>
       <!-- asset table END -->
         <!-- LIABILITIES table START -->
-        <div class="col-md-6 col-sm-6 justify-content-center">
-            <div class="boxdiv">
-            <table class="table table-bordered " id="balancesheet">
+        <div class="col-md-6 col-sm-6">
+            <div class="boxdiv ">
+                 <table id="liabilities">
                     <thead>
                         
                         <tr>
-                            <th>LIABILITIES</th>
-                            <th>AMOUNT</th>
+                            <th style="text-align: center">LIABILITIES</th>
+                            <th style="text-align: center">AMOUNT</th>
                         </tr>            
                     </thead>
                     <tbody>
@@ -119,7 +119,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td  style="color:#ad0000;">Total current liabilities</td>
+                            <td><p  style="color:#ad0000;">Total current liabilities</p></td>
                             <td></td>
                         </tr>
                         <tr>
@@ -143,21 +143,31 @@
                             <td></td>
                         </tr>
                         <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
                             <td>Total liabilities</td>
                             <td></td>
                         </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
+                     
+                        
                        
                     </tbody>                
                 </table>

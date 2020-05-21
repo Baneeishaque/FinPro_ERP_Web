@@ -16,7 +16,8 @@
 </div>
 
 <div class="purchase-document">
-    <div class="col-md-12">
+
+    <div class="col-md-12 whitebox">
     
         <div class="row" id="document-row">
             

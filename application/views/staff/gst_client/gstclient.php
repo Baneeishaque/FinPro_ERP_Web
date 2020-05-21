@@ -1,7 +1,8 @@
-
+<!-- BREAD CRUMB GST CLIENT-->
 	<ul id="breadcrumbs">
 		<li><a href="">GST CLIENTS</a></li> 
-	</ul><div>
+	</ul>
+
 
 <div class="container">
 

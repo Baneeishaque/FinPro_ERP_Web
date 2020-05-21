@@ -77,10 +77,67 @@ class General extends CI_Controller {
 		$this->load->view('staff/gst_client/company/accoundinfo/create');
 	}
 
-		
-		
-		
+	public function purchaseregister(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/PurchaseRegister');
+	}
+	public function salesregister(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/SalesRegister');
+	}
+	public function daybook(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/DayBook');
+	}
+	public function gstr3b(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/Gstr-3b');
+	}
+	public function voucher(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/Voucher');
+	}
+	public function payment(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/Payment');
+	}
+	// payment->create
+	public function payment_create(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/CreatePayment');
+	}	
+	public function receipt(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/Receipt');
+	}	
+	public function receipt_create(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/CreateReceipt');
+	}	
+	public function contra(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/Contra');
+	}
+	public function contra_create(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/CreateContra');
+	}	
+	public function journal(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/Journal');
+	}
+	public function journal_create(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/CreateJournal');
+	}
+	public function sales(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/sales');
+	}
+	public function sales_create(){
+		$this->load->view('index');
+		$this->load->view('staff/gst_client/company/voucher/CreateSale');
+	}
 	
-
 
 }
