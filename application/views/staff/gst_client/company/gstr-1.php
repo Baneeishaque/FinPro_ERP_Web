@@ -22,7 +22,7 @@
 </div>
 
 <!-- body -->
-<div class="container">
+<div class="container col-md-12">
     <div class="gstr-body col-md-12 col-sm-12">
            
     </div>

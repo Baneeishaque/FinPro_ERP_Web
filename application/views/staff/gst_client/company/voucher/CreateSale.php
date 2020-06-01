@@ -16,7 +16,7 @@
         <form action="" method="post" class="    "style="padding-top:2.5cm;">
             <div class="row  col-md-12 justify-content-center">
                 <div class=" col-md-6 col-sm-12">
-                                <!-- --------------DATE------------------------------- -->
+                            <!--- ----------------DATE------------------------------- -->
                         <div class="row">
                             <div class="form-group ">
                             

@@ -35,7 +35,7 @@
 
         <div class="row gmf-last">
             <a href="<?php echo  base_url('general/daybook'); ?>"><div class="child-box ">DAY BOOK</div></a>
-            <a href="<?php echo  base_url('general/gstr3b');     ?>"><div class="child-box">RGSTR-3B</div></a>
+            <a href="<?php echo  base_url('general/gstr3b');     ?>"><div class="child-box">GSTR-3B</div></a>
             <a href="<?php echo  base_url('general/');     ?>"><div class="child-box">PROFILE</div></a>
             
         </div>

@@ -21,8 +21,11 @@ class General extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('index');
-		$this->load->view('staff/staff_index');	
+		$this->load->view('staff/staff_index');
+		$this->load->view('owner/OwnerIndex');	
 	}
+// ***************************STAFF******************************************************
+
 	public function gstclient()
 	{
 		$this->load->view('index');

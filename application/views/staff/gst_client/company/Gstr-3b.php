@@ -23,7 +23,7 @@
 </div>
 <!-- gstr-3b body -->
 <div class="container col-md-12">
-    <div class="whitebox  col-md-12">
+    <div class="whitebox gstr-body  col-md-12">
 
     </div>
 
