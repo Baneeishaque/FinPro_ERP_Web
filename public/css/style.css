@@ -104,6 +104,11 @@ body {
    -webkit-box-shadow: 1px 10px 30px -10px rgba(0, 0, 0, 0.1);
    box-shadow: 1px 10px 30px -10px rgba(0, 0, 0, 0.5);
 }
+.small-box{
+  width: 2.8cm;
+  height: 2.8cm;
+  border-radius: 19px;
+}
 .child-row{
 padding-left:7cm;
 padding-right:7cm ;
@@ -420,6 +425,9 @@ th{
 }
 #purchaseregister th:last-child,#purchaseregister td:last-child{
   border-right: none;
+}
+#purchaseregister th{
+  font-weight: bold;
 }
 
 /* SALES REGISTER */
@@ -758,8 +766,9 @@ min-height: 16cm;
 }
 /* ******************************************OWNER******************************* *************************************/
 .row-main{
-  padding-left: 150px;
+  padding-left:150px;
   padding-top: 80px;
+  
 }
 .owner-row{
   margin-top: .5cm;
@@ -901,4 +910,20 @@ min-height: 16cm;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  }
+  #attendance{
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    box-shadow: 0px 0px 20px -3px  rgb(158, 149, 149);
+    background-color: #fff;
+  }
+  #attendance td, #attendance th{
+    border-right: thin solid rgb(163, 158, 158);
+  
+  
+    border-bottom: thin solid rgb(131, 121, 121);  
+  
+  }
+  #attendance th:last-child,#attendance td:last-child{
+    border-right: none;
   }

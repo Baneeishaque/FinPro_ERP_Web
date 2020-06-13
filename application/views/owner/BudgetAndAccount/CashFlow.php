@@ -1,28 +1,15 @@
-<!-- breadcrumb -->
-<ul id="breadcrumbs">
-    <li><a href="<?php echo base_url('general/gstclient');?>">GST CLIENTS</a></li>
-    <li ><a href="<?php echo base_url('general/gstmonthlyfill'); ?>">GST MONTHLY FILLING</a></li> 
-    <li><a href="<?php echo base_url('general/gmfresult');?>"><?php echo 'company-name' ?></a></li>
-    <li><a href="">CASH FLOW STATEMENT</a></li> 
+<!-- BREAD CRUMB OWNER cash flow-->
+<ul id="breadcrumbs-owner" >
+        <li><a  href="<?php echo base_url('owner/budget')?>">BUDGET AND ACCOUNT</a></li> 
+        <li><a>CASH FLOW STATEMENT</a></li>      
 </ul>
-<!-- year and month boxes -->
-<div class="container" id="DandM">
-    <div class="row col-md-12 col-sm-12 ybox">
+<!-- year div -->
+<div class="row col-md-11 col-sm-5 justify-content-end "style="" id="fin-year" >
+            <div class="ltext"><p>FINANCIAL YEAR</p></div><div class="rdigit owner-style"><p>2018-19</p></div>
+ </div>
 
-    <div class="row col-md-4 col-sm-2"style="" id="fin-year" ></div>
-
-        <div class="row col-md-4 col-sm-5 justify-content-end  "style="" id="fin-year" >
-            <div class="ltext"><p>FINANCIAL YEAR</p></div><div class="rdigit"><p>2018-19</p></div>
-        </div>
-
-        <div class="row col-md-4 col-sm-5 justify-content-end " id="fin-year" >
-            <div class="ltext"><p>MONTH</p></div><div class="rdigit"><p>SEPTEMBER</p></div>
-        </div>
-    </div>
-</div>
-
-
-<div class="row  col-md-12 justify-content-center"id="TB">
+ <!-- TABLE -->
+ <div class="row  col-md-12 justify-content-center"id="TB">
         <!-- asset table START -->
         <div class="col-md-6 col-sm-6 justify-content-center">
             <div class="boxdiv">
@@ -45,22 +32,22 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td style="color:#32005c;">PAYMENT</td>
+                            <td>PAYMENT</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td>INVOICE 1</td>
                             <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>INVOICE 2</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td>INVOICE 3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
                             <td></td>
                             <td></td>
                         </tr>
@@ -74,23 +61,9 @@
                             <td></td>
                             <td></td>
                         </tr>
+                      
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td><p style="color:#ad0000;">TOTAL OUT FLOW</p></td>
+                            <td>TOTAL OUT FLOW</td>
                             <td></td>
                             <td></td>
                         </tr>
@@ -110,7 +83,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td><p style="color:#ad0000;">NET FLOW</p></td>
+                            <td>NET FLOW</td>
                             <td></td>
                             <td></td>
                         </tr>
@@ -141,52 +114,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td style="color:#32005c;">RECEIPT</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>INVOICE 4</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>INVOICE 5</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>INVOICE 6</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td ></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td><p style="color:#ad0000;">TOTAL IN FLOW</p></td>
+                            <td>RECEIPT</td>
                             <td></td>
                             <td></td>
                         </tr>
@@ -210,6 +138,37 @@
                             <td></td>
                             <td></td>
                         </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>TOTAL IN FLOW</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
                        
                     </tbody>                
                 </table>

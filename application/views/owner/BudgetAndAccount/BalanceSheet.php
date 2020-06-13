@@ -1,167 +1,137 @@
-<!-- breadcrumb -->
-<ul id="breadcrumbs">
-    <li><a href="<?php echo base_url('general/gstclient');?>">GST CLIENTS</a></li>
-    <li ><a href="<?php echo base_url('general/gstmonthlyfill'); ?>">GST MONTHLY FILLING</a></li> 
-    <li><a href="<?php echo base_url('general/gmfresult');?>"><?php echo 'company-name' ?></a></li>
-    <li><a href="">CASH FLOW STATEMENT</a></li> 
+<!-- BREAD CRUMB OWNER balance sheet-->
+<ul id="breadcrumbs-owner" >
+        <li><a  href="<?php echo base_url('owner/budget')?>">BUDGET AND ACCOUNT</a></li> 
+        <li><a>BALANCE SHEET</a></li> 
+        
 </ul>
-<!-- year and month boxes -->
-<div class="container" id="DandM">
-    <div class="row col-md-12 col-sm-12 ybox">
 
-    <div class="row col-md-4 col-sm-2"style="" id="fin-year" ></div>
-
-        <div class="row col-md-4 col-sm-5 justify-content-end  "style="" id="fin-year" >
-            <div class="ltext"><p>FINANCIAL YEAR</p></div><div class="rdigit"><p>2018-19</p></div>
-        </div>
-
-        <div class="row col-md-4 col-sm-5 justify-content-end " id="fin-year" >
-            <div class="ltext"><p>MONTH</p></div><div class="rdigit"><p>SEPTEMBER</p></div>
-        </div>
+    <div class="row col-md-11 col-sm-5 justify-content-end "style="" id="fin-year" >
+            <div class="ltext"><p>FINANCIAL YEAR</p></div><div class="rdigit owner-style"><p>2018-19</p></div>
     </div>
-</div>
-
-
-<div class="row  col-md-12 justify-content-center"id="TB">
-        <!-- asset table START -->
-        <div class="col-md-6 col-sm-6 justify-content-center">
+  
+    <div class="row  col-md-12 justify-content-center"id="TB">
+        <!-- TAB1 -->
+        <div class="col-md-6 col-sm-6 ">
             <div class="boxdiv">
-                <table  id="cashoutflow">
+                <table  id="tab1">
                     
                     <thead>
-                        
                     
                         <tr>
-                            <th style="text-align: center">CASH OUT FLOW</th>
+                        <th style="text-align: center">ASSETS</th>
                             <th></th>
-                            <th style="text-align: center">AMOUNT</th>
+                            <th>AMOUNT</th>
                             
                         </tr>            
                     </thead>
                     <tbody>
                         <tr>
+                            <td style="color:#32005c;">capital amount</td>
                             <td></td>
-                            <td></td>
-                            <td></td>
+                            <th></th>
                         </tr>
                         <tr>
-                            <td style="color:#32005c;">PAYMENT</td>
+                             <td>A'S Capital</td>
                             <td></td>
-                            <td></td>
+                            <th></th>
                         </tr>
                         <tr>
-                            <td>INVOICE 1</td>
+                            <td>B'S Capital</td>
                             <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>INVOICE 2</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>INVOICE 3</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td ></td>
-                            <td></td>
-                            <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td style="color:#32005c;">Current assets:</td>
                             <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Cash and cash equivalents</td>
+                            <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Account Receivable</td>
+                            <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Inventories</td>
+                            <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td style="color:#32005c;">Long-term assets</td>
                             <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Property, plant and equipment, ne</td>
+                            <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Funrniture</td>
+                            <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td style="color:#32005c;">Total assets</td>
                             <td></td>
+                            <th></th>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td><p style="color:#ad0000;">TOTAL OUT FLOW</p></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td><p style="color:#ad0000;">NET FLOW</p></td>
-                            <td></td>
-                            <td></td>
+                            <th></th>
                         </tr>
                        
                     </tbody>                
                 </table>
             </div>
         </div>
-      <!-- asset table END -->
-        <!-- LIABILITIES table START -->
-        <div class="col-md-6 col-sm-6 justify-content-center">
+
+        <!-- TAB2 -->
+        <div class="col-md-6 col-sm-6 ">
             <div class="boxdiv">
-                <table  id="cashinflow">
+                <table id="tab2">
                     
                     <thead>
                     
                         <tr>
-                            <th style="text-align: center">CASH IN FLOW</th>
+                            <th style="text-align: center">LIABILITIES</th>
                             <th></th>
-                            <th style="text-align: center">AMOUNT</th>
-                           
+                            <th>AMOUNT</th>
                         </tr>            
                     </thead>
                     <tbody>
                         <tr>
-                            <td>OPENING BALANCE</td>
+                             <td style="color:#32005c;">Current liabilities:</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td style="color:#32005c;">RECEIPT</td>
+                             <td>Account payble</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td>INVOICE 4</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>INVOICE 5</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>INVOICE 6</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td ></td>
+                            <td><p  style="color:#ad0000;">Total current liabilities</p></td>
                             <td></td>
                             <td></td>
                         </tr>
@@ -171,22 +141,17 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
+                            <td>Long-term liabilities</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td></td>
-                            <td></td>
+                            <td></td> 
                             <td></td>
                         </tr>
                         <tr>
-                            <td><p style="color:#ad0000;">TOTAL IN FLOW</p></td>
+                            <td>Total long-term liabilities</td>
                             <td></td>
                             <td></td>
                         </tr>
@@ -206,14 +171,39 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td ></td>
+                            <td></td>
                             <td></td>
                             <td></td>
                         </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Total liabilities</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                      
+                       
                        
                     </tbody>                
                 </table>
             </div>
-        </div>
-        <!-- LIABILITIES table END -->
+        </div>  
+      
+       
+        
+     
 </div>
