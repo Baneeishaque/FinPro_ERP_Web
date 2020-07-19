@@ -14,7 +14,7 @@
             <a href="<?php echo  base_url('owner/budget');   ?>"><div class="child-box owner-style">BUDGET&A/C</div></a>
             <a href="<?php echo  base_url(''); ?>"><div class="child-box owner-style">IT CLIENTS </div></a>
             <a href="<?php echo  base_url('');     ?>"><div class="child-box owner-style">AUDITING</div></a>
-      
+        
            
         </div>
     </div>

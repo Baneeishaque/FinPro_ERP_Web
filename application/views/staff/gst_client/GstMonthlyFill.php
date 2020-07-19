@@ -14,13 +14,13 @@
                     
                         <?php $years = range(2000, strftime("%Y", time())); ?>
                         
-                        <div class="custom-select" id="custom-select">
+                        <div class="custom-select field-icon-wrap" id="custom-select">
                             <select name="year" id="yearselect" style="border:none;width:2.2cm">
                                 
                                 <?php foreach($years as $year) : ?>
                                     <option value="<?php echo $year; ?>'-'<?php echo $year+1; ?>"><?php echo $year; ?>-<?php echo $year+1; ?></option>
                                 <?php endforeach; ?>
-                            </select><i class="fa fa-calendar"  aria-hidden="true"></i>
+                            </select> <i class="fa fa-calendar" style="z-index: 1" aria-hidden="true"></i>     
                         </div>
                         
                     
