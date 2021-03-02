@@ -1,1 +1,1 @@
-# FinPro_ERP_Web
+# FinPro ERP Web Application
